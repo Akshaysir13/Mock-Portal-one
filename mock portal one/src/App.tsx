@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { TestProvider } from './context/TestContext';
-//import MobileBlocker from './components/MobileBlocker';
+import MobileBlocker from './components/MobileBlocker';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Test from './pages/Test';
